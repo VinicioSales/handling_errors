@@ -1,0 +1,6 @@
+2023-03-08 21:13:06,232 - DEBUG - Mensagem de debug
+2023-03-08 21:13:06,235 - INFO - Mensagem de informação
+2023-03-08 21:13:06,236 - WARNING - Mensagem de aviso
+2023-03-08 21:13:06,240 - ERROR - Mensagem de erro
+2023-03-08 21:13:06,241 - CRITICAL - Mensagem crítica
+2023-03-08 21:13:06,242 - DEBUG - division by zero

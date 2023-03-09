@@ -7,7 +7,7 @@ logging.basicConfig(
 )
 
 # Criação do manipulador para escrever as mensagens em um arquivo
-handler = logging.FileHandler('log.log')
+handler = logging.FileHandler('src/files/log.log')
 handler.setLevel(logging.DEBUG)
 
 # Formatação das mensagens que serão registradas no arquivo
@@ -19,14 +19,14 @@ logger = logging.getLogger()
 logger.addHandler(handler)
 
 # Registro de mensagens de exemplo
-logger.debug('Mensagem de debug')
+"""logger.debug('Mensagem de debug')
 logger.info('Mensagem de informação')
 logger.warning('Mensagem de aviso')
 logger.error('Mensagem de erro')
-logger.critical('Mensagem crítica')
+logger.critical('Mensagem crítica')"""
 
 #NOTE - Exemplo Prático
-try:
+"""try:
     resposta = 1 / 0
 except Exception as error:
-    logger.debug(error)
+    logger.debug(error)"""
